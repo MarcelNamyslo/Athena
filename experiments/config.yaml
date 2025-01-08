@@ -1,0 +1,15 @@
+use_config: true
+
+percentages:
+  percentages1: [100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 5]
+  percentages2: [30, 20, 17.5, 15, 12.5, 10, 7.5, 5, 2.5, 1, 0.5, 0.1]
+
+# Model configuration
+model_type: "LRP_CNN"  # Use "LRP_NN" for alternative
+apply_lrp_to: "linear"  # Options: "linear", "all"
+
+# Experiment settings
+seed: 42
+epochs: 4
+num_repeats: 1
+factors: [0.1]

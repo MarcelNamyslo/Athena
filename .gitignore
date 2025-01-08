@@ -1,0 +1,9 @@
+data/
+__pycache__/
+saved_models/
+training_results*
+output_log*
+log*
+old/
+results CNN
+results NN
